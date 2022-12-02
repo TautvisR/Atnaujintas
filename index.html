@@ -7,51 +7,80 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/styles.css">
     <style>
+        @media screen and (max-width: 1200px) {
+            h1 {
+                font-size: calc(55px + 30 * (100vw / 1200));
+            }
+            p {font-size: calc(30px + 12 * (100vw / 1200));
+            }
+         }
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
     </style>
 </head>
 <body>
-    <header class="wrapper">
-        <div class="headflex">
-            <div class="logo">
-                <img src="./assets/images/logo image.svg" alt="elipse">
-                <p>Portfolio</p>
-            </div>
-            <nav class="navi">
-                <div class="nuoro">
-                    <a href="#">Projects</a>
-                    <a class="fix" href="#">Technologies</a>
-                    <a href="#">About Me</a>
+    <header class="headwrap">
+        <div class="wrapper">
+            <div class="headflex">
+                 <div class="logo">
+                    <img src="./assets/images/logo image.svg" alt="elipse">
+                    <p>Portfolio</p>
                 </div>
-            </nav>
-            <div class="socnav">
-                <a href="#"><img src="./assets/images/Icon.png" alt="icon"></a>
-                <a class="whit" href="#"><img class="whit" src="./assets/images/Union.svg" alt="Union"></a>
+                <nav class="navi">
+                    <div class="nuoro">
+                        <a href="#">Projects</a>
+                        <a class="fix" href="#">Technologies</a>
+                        <a href="#">About Me</a>
+                    </div>
+                </nav>
+                <div class="socnav">
+                    <a href="#"><img src="./assets/images/Icon.png" alt="icon"></a>
+                    <a class="whit" href="#"><img class="whit" src="./assets/images/Union.svg" alt="Union"></a>
+                </div>
             </div>
         </div>
     </header>
-    <section class="wrapper">
-        <div class="hero">
-            <img src="./assets/images/hero_img.svg" alt="hero img">
-            <div class="herotxt">
-                <h1>Lorem ipsum dolor sit amet</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora facilis ea, dolorem nisi dolore reiciendis ratione perspiciatis atque aperiam numquam</p>
-                <a href="#">Let's begin</a>
+    <section class="herowrap">
+        <div class="wrapper">
+            <div class="siena">
+                <img class="erzina" src="./assets/images/hero_img.svg" alt="hero img">
+                <div class="hero">
+                    <div class="herotxt">
+                        <h1>Lorem ipsum dolor sit amet</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora facilis ea, dolorem nisi dolore reiciendis ratione perspiciatis atque aperiam numquam</p>
+                        <a href="#">Let's begin</a>
+                    </div>
+                 </div>
+             </div>
+        </div>
+    </section>
+    <section class="secwrap">
+        <div class="wrapper">
+            <h2 class="pro">Projects</h2>
+            <div class="pro1">
+                <div class="pro1txt">
+                    <a class="pro1txta" href="#">PROJECT 1</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quam earum sequi libero non unde inventore suscipit, voluptatem eius.</p>
+                    <a class="look" href="#">Look it up</a>
+                </div>
+                <div class="pro1img">
+                    <img src="./assets/images/image 1.svg" width="500px" alt="PC">
+                </div>
+            </div>
+            <div class="pro23">
+                <div class="pro2">
+                    <img src="./assets/images/image 1.png" width="480px" alt="kompiuteris">
+                    <a class="pro1txta" href="#">PROJECT 2</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatibus facilis officia at, vitae nihil quae eos.</p>
+                    <a class="look" href="#">Look it up</a>
+                </div>
+                <div class="pro3">
+                    <img src="./assets/images/image 1.png" width="480px" alt="kompiuteris">
+                    <a class="pro1txta" href="#"> PROJECT 3</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatibus facilis officia at, vitae nihil quae eos.</p>
+                    <a class="look" href="#">Look it up</a>
+                </div>
             </div>
         </div>
     </section>
-    <h2 class="pro">Projects</h2>
-    <section class="wrapper">
-        <div class="pro1">
-            <div class="pro1txt">
-                <a class="pro1txta" href="#">PROJECT 1</a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil architecto quaerat aliquid temporibus rerum eaque ad numquam quidem reprehenderit deserunt?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae rem commodi ullam distinctio id iste in voluptates nam ea impedit?</p>
-                <a href="#">Look it up</a>
-            </div>
-            <img src="./assets/images/image 1.svg" alt="PC">
-
-        </div>
-    </section>
-    
 </body>
 </html>
